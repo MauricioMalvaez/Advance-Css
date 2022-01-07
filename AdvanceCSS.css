@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h3{
+    padding-top: 20px;
+color: blue;
+text-align: center;
+}
+
+#main{
+    background-color: whitesmoke;
+    align-content: center;
+    margin: 30px 30px;
+    padding: 30px 30px;
+    
+}
+
+.container{
+    width: 50%;
+    height: 100px;
+}
+
+.alerta{
+    color: #72353D;  
+    background-color: #EAD2D5;;
+}
+
+.Tag1{
+    width: 40%;
+    height: 200px;
+    background-color: red;
+    margin-bottom: 20px;
+    font-size: 1.5em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 50px;
+    transform: rotate(90deg);
+}
+
+.Tag2{
+    width: 50%;
+    height: 200px;
+    background-color: blue;
+    font-size: 1.5em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 50px;
+    transform: rotate(90deg);
+    margin-left: 300px;
+    
+}
+
+#animacion{
+    width: 200px;
+    height: 100px;
+    background-color: red;
+    animation-name: example;
+    animation-duration: 5s;
+    margin-bottom: 20px;
+}
+
+@keyframes example {
+    from {background-color: red;}
+    to {background-color: blue;}
+}
+   
+#animacion2{
+    width: 200px;
+    height: 100px;
+    background-color: red;
+    animation-name: example2;
+    animation-duration: 5s;
+    margin-bottom: 20px;
+}
+
+@keyframes example2 {
+    from {background-color: blue;}
+    to {background-color: red;}
+}
